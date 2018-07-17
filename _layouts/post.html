@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      {{ page.date | date: "%b %-d, %Y" }}
+      {% if page.author %} • by {{ page.author.first_name }} {{ page.author.last_name }}{% endif %}
+    </p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+    {% if page.meta.enclosure %}
+      <audio
+        preload="auto"
+        style="width: 400px;"
+        src="/assets/mp3s/{{ page.meta.enclosure | truncatewords: 1 | remove:'...' | split: '/' | last }}">
+      </audio>
+    {% endif %}
+  </article>
+</div>

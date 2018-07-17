@@ -1,0 +1,12 @@
+# Site settings
+title: Being Ordinary
+email: contact@beingordinary.org
+description: > # this means to ignore newlines until "baseurl:"
+  Irreverent, but hopefully informed, podcasts about modern spirituality
+  "What is known as 'realising the mystery', is nothing but breaking through to grab an ordinary person's life. Te-shan"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://beingordinary.org"
+twitter_username: beingordinary
+
+# Build settings
+markdown: kramdown
