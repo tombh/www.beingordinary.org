@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Irreverent, but hopefully informed, podcasts about modern spirituality
   "What is known as 'realising the mystery', is nothing but breaking through to grab an ordinary person's life. Te-shan"
 baseurl: "" # the subpath of your site, e.g. /blog/
+asseturl: https://media.githubusercontent.com/media/tombh/www.beingordinary.org/master/assets/mp3s
 url: "https://beingordinary.org"
 twitter_username: being_ordinary
 
